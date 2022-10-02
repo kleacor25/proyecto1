@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Decameron</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo_hotel.jpg" alt="Logo" width="100" height="25" class="d-inline-block align-text-top"> Hotel Decameron</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="hoteles.html">Hoteles</a></li>
+                      <li class="nav-item"><a class="nav-link" href="tiphabitaciones.html">Tipos de Habitaciones</a></li>
+                      <li class="nav-item"><a class="nav-link" href="acomodaciones.html">Acomodaciones</a></li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+          <div class="subtituloadmin">
+            <h2>Panel de Administración</h2>
+            <img src="banner.jpg" alt="banner" width="100" height="25"> Hotel Decameron</a>
+          </div>
+          
+    </header>
+
+    <main>
+       
+        <div class="container">
+	            <div class="table-responsive">
+            
+                  <div class="table-title">
+                    <div class="row">
+							<div class="col-6">
+                                <h2>ACTUALIZAR DATOS DEL HOTEL</h2>
+                            </div>
+                          </div>
+                       </div>
+                    
+                    <div class="container">
+                        <form class="row g-3">
+
+                    <div class="col-md-6">
+                        <label for="inputNombre" class="form-label">NOMBRE</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputNit" class="form-label">NIT</label>
+                        <input type="text" class="form-control" id="inputNit">
+                      </div>
+                      
+                      <div class="col-md-6">
+                        <label for="inputDireccion" class="form-label">DIRECCION</label>
+                        <input type="text" class="form-control" id="inputDireccion">
+                      </div>
+
+                      <div class="col-md-4">
+                        <label for="inputCantHabitaciones" class="form-label">N° de Habitaciones</label>
+                        <input type="text" class="form-control" id="inputCantHabitaciones">
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputCiudad" class="form-label">CIUDAD</label>
+                        <select id="inputCiudad" class="form-select">
+                          <option selected>...</option>
+                          <option>BARRANQUILLA</option>
+                          <option>BOGOTA</option>
+                          <option>MEDELLIN</option>
+                        </select>
+                      </div>
+
+                      <div class="row g-3">
+                             <div class="col-9">
+                            <a href="#" class="btn btn-success"></i><span>Eliminar</span></a>
+                        </div>
+
+                         <div class="col-3">
+                          <a href="hoteles.html" class="btn btn-success"></i><span>Actualizar Datos</span></a>
+                        </div>
+                      </div>
+                    </form>
+                    <br>
+            
+          </main>
+
+    <footer>
+          <p class="copyright">&copy Copyright KLEACORP SOFT - 2022</p>
+      </footer>   
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Decameron</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo_hotel.jpg" alt="Logo" width="100" height="25" class="d-inline-block align-text-top"> Hotel Decameron</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                      <li class="nav-item"><a class="nav-link" href="hoteles.html">Hoteles</a></li>
+                      <li class="nav-item"><a class="nav-link" href="tiphabitaciones.html">Tipos de Habitaciones</a></li>
+                      <li class="nav-item"><a class="nav-link" href="acomodaciones.html">Acomodaciones</a></li>
+                      </ul>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+          <div class="subtituloadmin">
+            <h2>Panel de Administración</h2>
+          </div>
+          
+    </header>
+
+    <main>
+       
+        <div class="container">
+	            <div class="table-responsive">
+                <div class="table-wrapper">
+                  <div class="table-title">
+                    <div class="row">
+							
+                            <div class="col-6">
+                                <h2>CREAR NUEVA HABITACION PARA HOTEL</h2>
+                            </div>
+                          </div>
+                       </div>
+		    
+              <div class="container">
+                <form class="row g-3">
+
+                      <div class="col-md-6">
+                        <label for="inputTipoHab" class="form-label">Tipo de Habitación</label>
+                        <select id="inputTipoHab" class="form-select">
+                          <option selected>...</option>
+                          <option>JUNIOR</option>
+                          <option>ESTANDAR</option>
+                          <option>SUITE</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputAcom" class="form-label">Acomodaciones</label>
+                        <select id="inputAcom" class="form-select">
+                          <option selected>...</option>
+                          <option>SENCILLA</option>
+                          <option>DOBLE</option>
+                          <option>TRIPLE</option>
+                          <option>CUADRUPLE</option>
+                        </select>
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputCantidad" class="form-label">Cantidad</label>
+                        <input type="text" class="form-control" id="inputCantidad">
+                      </div>
+
+                      <div class="row">
+                        <div class="col-9"></div>
+                        <div class="col-3">
+                          <a href="habitaciones.html" class="btn btn-success"></i><span>Crear Habitación</span></a>
+                        </div>
+                      </div>
+                    </form>
+                    <br>
+                </div>
+          </main>
+
+      <footer>
+          <p class="copyright">&copy Copyright KLEACORP SOFT - 2022</p>
+      </footer>   
+</body>
+</html>
